@@ -1,0 +1,35 @@
+.line{
+    position: relative;
+    width: 8px;
+    height: 70px; 
+    margin-right: 7px;
+    background-color: transparent;
+}
+
+.progressbar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.primaryBlue{
+    background-color: #0077FF;
+}
+
+.secondaryBlue{
+    background-color: #B2D6FF;
+}
+
+.primaryRed{
+    background-color: #F0166D;
+}
+
+.secondaryRed{
+    background-color: #F78AB6;
+}
+
+.content{
+    font-size: 0.65rem;
+    color: #8E9AA3;
+}

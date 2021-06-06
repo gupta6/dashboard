@@ -1,0 +1,34 @@
+.sidebar{
+    padding-top: 20px ;
+    padding-bottom: 30px ;
+    width: 6%;
+    height: calc(100% - 60px);
+    display: flex;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    font-size: 30px;
+    flex-wrap: wrap;
+    color: #aaa;    
+    box-sizing: border-box;
+    background-color: white;
+    align-items: flex-start;
+}
+
+.sidebaricon{
+    text-align: center;
+    width: 100%;
+    padding:5px 0;
+    margin: 8px 0;
+    cursor: pointer;
+    border-right: 2px solid transparent;
+}
+
+.sidebaricon.active{
+    color: blue;
+    border-color: blue;
+}
+
+.sidebaricon:hover{
+    color: blue;
+    border-color: blue;
+}

@@ -1,0 +1,113 @@
+.contaniner{
+    background-color: white;
+    padding: 25px 30px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.ContentTable{
+    width: 55%;
+}
+
+h3{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #353353;
+}
+
+.tableHead{
+    font-size: 0.7rem;
+    color: #B7C7D7;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+.tableHead span{
+    display: inline-block;
+}
+
+.tableHead span {
+    width: 25%;
+}
+
+.tableHead span:last-child{
+    text-align: center;
+}
+
+.pageControl{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    color: #9D9AA3;
+    font-weight: 400;
+}
+
+.pagelist{
+    display: flex;
+    width: 25%;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    cursor: pointer;
+    height: 25px;
+}
+
+.pagelist>div:first-child, .pagelist>div:last-child{
+    width: 10%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ccc;
+    font-size: 0.6rem;
+    letter-spacing: -2px;
+    height: 100%;
+}
+
+.innerpagelist{
+    /* position: absolute; */
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    flex-flow: row nowrap;
+    height: 100%;
+    overflow:hidden;
+    
+}
+
+.innerpagelist div{
+    width: 12.5%;
+    height: 100%;
+    font-size: 0.85rem;    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.pagelist>div:first-child:hover, .pagelist>div:last-child:hover{
+    background-color: #ddd;
+}
+
+.active{
+    background-color: #005cbf;
+    border: 1px solid #005cbf;
+    color: white;
+}
+
+.active:hover{
+    background-color: #005cbf;
+}
+
+.notActive{
+    color: #9D9AA3;
+    border: 1px solid #ccc;
+}
+
+.notActive:hover{
+    background-color: #ddd;
+}

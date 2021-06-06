@@ -1,0 +1,70 @@
+.Main{
+    margin: 0% 3%;
+    width: 100%;
+}
+
+.MainTop{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;    
+    margin: 20px 0px;
+}
+
+.topheading{
+    flex-grow: 0.6;
+    display: flex;
+    font-weight: 500;
+}
+
+.progressDiv{
+    flex-grow: 0.4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: small;
+    font-weight: 400;
+}
+
+.mainprogress{
+    position: relative;
+    height: 5px;
+    width:40%;
+    margin-right: 2%;
+    flex-grow: 0.4;
+    background-color: #EDEFF2;
+    
+}
+
+.mainProgressBar{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 75%;
+    height: 100%;
+    background-color: blue;
+}
+
+.progressContent{
+    color: #8E9AA3;
+}
+
+.chartContainer{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+.chartSection{
+    width: 38%;
+    border-right: 1px solid #ccc;
+    flex-shrink: 1;
+}
+
+.chartDataSec{
+    width: 24%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-shrink: 5;
+}

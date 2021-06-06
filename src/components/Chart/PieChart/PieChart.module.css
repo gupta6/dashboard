@@ -1,0 +1,66 @@
+.circleChart {
+    height:92px;
+    width:92px;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .circleChartMain{
+    position: absolute;
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+    border:10px solid transparent;
+  }
+  
+  .circleLeft{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;  
+    transform: rotate(225deg);
+  }
+  
+  .circleLeftProgressBar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:50%;
+    height:100%;
+    border-width:10px;
+    border-style: solid;
+    border-top-left-radius: 50px;
+    border-right: none;
+    border-bottom-left-radius: 50px;
+    border-color: transparent;
+  }
+  
+  .circleRight{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    border: 10px solid transparent;    
+    border-left: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+
+.primaryBlue{
+    border-color: #B2D6FF;
+}
+
+.secondaryBlue{
+    border-color: #0077FF;
+}
+
+.primaryRed{
+  border-color: #F78AB6;
+}
+
+.secondaryRed{  
+  border-color: #F0166D;
+}
+

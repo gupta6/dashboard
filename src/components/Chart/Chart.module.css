@@ -1,0 +1,41 @@
+.secHead{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.chartSec{
+    padding: 15px 35px 30px 20px;
+}
+
+.chart{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chartHead{
+    width: 100%;
+    margin: 20px 0 -10px 0;
+    display: flex;
+    align-items: flex-end;
+    font-weight: 400;
+}
+
+.chartHead span{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 0.83rem;
+    color: #8EA7C3;
+}
+
+.chartHead strong{   
+    font-weight:500; 
+    font-size: 1.3rem;
+}
+
+.piechart{
+    margin: 0 0 5% 10%;
+}
+
+.chartPortion{
+    display: flex;
+}
